@@ -35,15 +35,14 @@
     height: 60px;
 }
 
-.margen{
-    margin:auto;
+.margen {
+    margin: auto;
     width: 100px;
-    
 }
 
-.footer{
+.footer {
     text-align: center;
     background-color: rgba(0, 0, 0, 0.63);
-    color:white;
-
+    color: white;
+    padding-left: 50px;
 }
