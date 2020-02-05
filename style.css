@@ -34,3 +34,11 @@
     width: 400px;
     height: 60px;
 }
+
+.celda-lateral {
+    width: 100px;
+}
+
+.separador {
+    height: 20px;
+}
