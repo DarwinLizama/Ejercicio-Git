@@ -1,3 +1,8 @@
+.dise-tabla {
+    border-collapse: separate;
+    align-content: center;
+}
+
 .forma-imagen-1 {
     width: 90px;
     height: 100px;
