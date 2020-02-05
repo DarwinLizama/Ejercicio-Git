@@ -1,12 +1,13 @@
 .dise-tabla {
     border-collapse: separate;
     align-content: center;
+    width: 100%;
 }
 
 .forma-imagen-1 {
+    text-align: center;
     width: 90px;
-    height: 100px;
-    padding-left: 20px;
+    height: 150px;
     background-color: rgb(42, 190, 128);
     border-radius: 35px 35px 35px 35px;
     -moz-border-radius: 35px 35px 35px 35px;
@@ -15,9 +16,9 @@
 }
 
 .forma-imagen-2 {
+    text-align: center;
     width: 90px;
-    height: 100px;
-    padding-left: 20px;
+    height: 150px;
     background-color: cyan;
     border-radius: 35px 35px 35px 35px;
     -moz-border-radius: 35px 35px 35px 35px;
@@ -26,13 +27,16 @@
 }
 
 .estilo-texto {
-    font-size: 8px;
+    font-size: 16px;
     text-align: justify;
 }
 
 .dimens-celda {
     width: 400px;
     height: 60px;
+    padding-top: initial;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .celda-lateral {
@@ -45,4 +49,35 @@
 
 .celda-pie-pagina {
     height: 40px;
+}
+
+.div-texto {
+    height: 100px;
+    background-color: grey;
+    border-radius: 0px 0px 0px 0px;
+    -moz-border-radius: 0px 0px 0px 0px;
+    -webkit-border-radius: 0px 0px 0px 0px;
+    border: 0px solid #000000;
+}
+
+.dimens-celda {
+    width: 400px;
+    height: 60px;
+}
+
+.margen {
+    margin: auto;
+    width: 100px;
+}
+
+.footer {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.63);
+    color: white;
+    padding-left: 300px;
+}
+
+.bordetexto {
+    padding-left: 15px;
+    padding-right: 15px;
 }
