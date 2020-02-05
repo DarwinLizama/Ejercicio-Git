@@ -40,3 +40,10 @@
     width: 100px;
     
 }
+
+.footer{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.63);
+    color:white;
+
+}
